@@ -19,7 +19,6 @@ body {
     border-radius: 4vh;
     box-shadow: 0 0 .8rem .2rem rgb(1, 35, 73);
     background:  rgba(103, 148, 179, 0.8);
-    transition: all .5s ease;
 }
 
 .slider {
@@ -186,6 +185,7 @@ input[name='r'] {
 
 @media (max-width: 768px) {
     .wrapper {
+        width: 85%;
         padding: 0 2rem;
         transition: all .5s ease;
     }
@@ -206,6 +206,7 @@ input[name='r'] {
 }
 @media (max-width: 440px) {
     .wrapper {
+        width: 90%;
         padding: 0 1rem;
         transition: all .5s ease;
     }
