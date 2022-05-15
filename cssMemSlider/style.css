@@ -51,6 +51,8 @@ body {
     max-width: 100%;
     max-height: 70vh;
     border-radius: 4vh;
+    border: 3px solid rgb(1, 35, 73);
+    box-shadow: 0 0 .3rem .1rem rgba(1, 35, 73, .6);
 }
 
 .conteiner {
@@ -71,13 +73,18 @@ body {
     min-width: 100%; 
     display: flex;
     align-items: center; 
-    transition: all .7s ease;
+    transition: all .5s ease;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    color: rgb(1, 35, 73);
+    font-weight: 700;
 }
 
 .navigation {
     width: 30%;
     display: flex;
     transition: all .5s ease;
+
 }
 .navigation .bar {
     width: 3rem;
